@@ -1,8 +1,8 @@
 {
-  "name": "tiering-policy-switch-scheduler",
+  "name": "switch-tiering-policy-scheduler",
   "version": "0.1.0",
   "bin": {
-    "tiering-policy-switch-scheduler": "bin/tiering-policy-switch-scheduler.js"
+    "switch-tiering-policy-scheduler": "bin/switch-tiering-policy-scheduler.js"
   },
   "scripts": {
     "build": "tsc",
