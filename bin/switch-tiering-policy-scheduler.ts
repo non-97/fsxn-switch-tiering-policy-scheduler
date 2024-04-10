@@ -7,7 +7,7 @@ import { switchTieringPolicySchedulerStackProperty } from "../parameter/index";
 const app = new cdk.App();
 new SwitchTieringPolicySchedulerStack(
   app,
-  "TieringPolicySwitchSchedulerStack",
+  "SwitchTieringPolicySchedulerStack",
   {
     env: switchTieringPolicySchedulerStackProperty.env,
     ...switchTieringPolicySchedulerStackProperty.props,
